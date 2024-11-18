@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .container {
+    width: 270px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  button {
+    background-color: #6b801f;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  alert {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
